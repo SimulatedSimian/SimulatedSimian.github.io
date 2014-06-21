@@ -1,6 +1,5 @@
 ---
-layout: post
-title: Blogging Like a Hacker
+layout: default
 ---
 
 this is a test
