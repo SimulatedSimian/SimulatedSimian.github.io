@@ -28,38 +28,8 @@
 
     <div class="container">
       <section id="main_content">
-        <h1>
-<a name="header-1" class="anchor" href="#header-1"><span class="octicon octicon-link"></span></a>header 1</h1>
-
-<h2>
-<a name="header-2" class="anchor" href="#header-2"><span class="octicon octicon-link"></span></a>header 2</h2>
-
-<h3>
-<a name="header-3" class="anchor" href="#header-3"><span class="octicon octicon-link"></span></a>header 3</h3>
-
-<p><a href="http://google.com">its google!</a></p>
-
-<p>blockquote:</p>
-
-<blockquote>
-<p>Pardon my french</p>
-</blockquote>
-
-<div class="highlight highlight-C++"><pre><span class="kt">void</span> <span class="n">StandardTraceOutput</span><span class="o">::</span><span class="n">destinationReached</span> <span class="p">(</span><span class="n">net</span><span class="o">::</span><span class="n">InetAddress</span><span class="o">&amp;</span> <span class="n">respFrom</span><span class="p">,</span> <span class="n">DWORD</span> <span class="n">pingTime</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">portOpen</span><span class="p">)</span>
-<span class="p">{</span>
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Destination Reached in "</span> <span class="o">&lt;&lt;</span> <span class="n">pingTime</span> <span class="o">&lt;&lt;</span> <span class="s">" ms. "</span><span class="p">;</span>
-
-    <span class="k">if</span> <span class="p">(</span><span class="n">portOpen</span><span class="p">)</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Connection established to "</span> <span class="o">&lt;&lt;</span> <span class="n">respFrom</span><span class="p">.</span><span class="n">getIPAddressAsString</span><span class="p">();</span>
-    <span class="k">else</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Port closed on "</span> <span class="o">&lt;&lt;</span> <span class="n">respFrom</span><span class="p">.</span><span class="n">getIPAddressAsString</span><span class="p">();</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></div>
+{{content}}
       </section>
     </div>
-
-    
   </body>
 </html>
