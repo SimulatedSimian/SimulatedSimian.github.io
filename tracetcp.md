@@ -18,7 +18,7 @@ In addition to providing the functionality of the standard traceroute utility tr
 
 # System Requirements
 
-You **MUST** install the winpcap library (http://www.winpcap.org) for this version to work. tracetcp has been tested with version 3.* and 4.* of this library.
+You **MUST** install the winpcap library [http://www.winpcap.org](http://www.winpcap.org) for this version to work. tracetcp has been tested with version 3.* and 4.* of this library.
 
 Previous versions of tracetcp used raw sockets but Microsoft took out support for Raw TCP sockets in XP SP2, and as tracetcp uses this feature it caused it to stop working.
 
