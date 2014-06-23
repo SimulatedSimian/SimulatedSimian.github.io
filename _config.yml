@@ -4,6 +4,8 @@ markdown: redcarpet
 projectname: this is the project name
 projectdesc: this is the project description
 projectrepo: https://github.com/SimulatedSimian/testrepo1
+projectdownloadURL: https://github.com/SimulatedSimian/tracetcp/releases
+porjectdownloadtext: v1.0.0
 
 
 
