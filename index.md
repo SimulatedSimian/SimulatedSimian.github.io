@@ -1,5 +1,6 @@
 ---
 layout: std
+wibble: hello world
 ---
 
 # Welcome to tracetcp.
