@@ -1,6 +1,12 @@
 ---
 layout: stdproject
 title: tracetcp
+
+projectname: this is the project name
+projectdesc: this is the project description
+projectrepo: https://github.com/SimulatedSimian/testrepo1
+projectdownloadURL: https://github.com/SimulatedSimian/tracetcp/releases
+projectdownloadtext: v1.0.0
 ---
 
 # Welcome to tracetcp.
