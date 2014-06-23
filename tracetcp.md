@@ -2,11 +2,12 @@
 layout: stdproject
 title: tracetcp
 
-projectname: this is the project name
-projectdesc: this is the project description
-projectrepo: https://github.com/SimulatedSimian/testrepo1
+projectname: tracetcp
+projectdesc: Traceroute utility that uses tcp syn packets to trace network routes.
+projectrepo: https://github.com/SimulatedSimian/tracetcp
 projectdownloadURL: https://github.com/SimulatedSimian/tracetcp/releases
 projectdownloadtext: v1.0.0
+
 ---
 
 # Welcome to tracetcp.
