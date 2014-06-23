@@ -1,2 +1,10 @@
 markdown: redcarpet
-wibble: test
+
+# user defined vars
+projectname: this is the project name
+projectdesc: this is the project description
+projectrepo: https://github.com/SimulatedSimian/testrepo1
+
+
+
+
