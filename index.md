@@ -28,6 +28,7 @@ Just copy tracetcp.exe into a directory that is in you system PATH.
 # Usage
 
 From the command prompt:
+
 ```
 tracetcp host [options]
     where host = hostName|ipAddress[:portNumber|serviceName]
@@ -78,7 +79,6 @@ Examples:
     tracetcp post.sponge.com:smtp
     tracetcp 192.168.0.1 -n -t 500
 ```
-
 
 # Revision History
 
