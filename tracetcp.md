@@ -18,11 +18,11 @@ In addition to providing the functionality of the standard traceroute utility tr
 
 # System Requirements
 
-You **MUST** install the winpcap library [http://www.winpcap.org](http://www.winpcap.org) for this version to work. tracetcp has been tested with version 3.* and 4.* of this library.
+You **MUST** install the [winpcap library](http://www.winpcap.org) for this version to work. tracetcp has been tested with version 3.* and 4.* of this library.
 
 Previous versions of tracetcp used raw sockets but Microsoft took out support for Raw TCP sockets in XP SP2, and as tracetcp uses this feature it caused it to stop working.
 
-There is an article about this here that may be of interest: http://seclists.org/lists/nmap-hackers/2005/Apr-Jun/0000.html
+There is an article about this here that may be of interest [here](http://seclists.org/lists/nmap-hackers/2005/Apr-Jun/0000.html).
 
 In order to allow the program to function with XP sp2 it now uses the winpcap library to send and receive packets. The downside of using this is that the program will not function over dial-up connections. 
 
@@ -30,12 +30,13 @@ tracetcp has been tested on on Windows XP, Vista & 7. You must be logged on to t
 
 # Installation
 
-You MUST install the winpcap library (http://www.winpcap.org) first.
+You MUST install the [winpcap library](http://www.winpcap.org) first.
 Just copy tracetcp.exe into a directory that is in you system PATH.
 
 # Usage
 
 From the command prompt:
+
 
 ```
 tracetcp host [options]
