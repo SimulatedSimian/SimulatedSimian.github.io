@@ -1,6 +1,10 @@
 # markdown: redcarpet
-markdown: redcarpet
+# markdown: redcarpet
 ## markdown: kramdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
 # user defined vars
 
 homepage: http://simulatedsimian.github.io/
