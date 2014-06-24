@@ -3,7 +3,7 @@
 ## markdown: kramdown
 markdown: kramdown
 kramdown:
-  input: GFM
+    input: GFM
 
 # user defined vars
 
