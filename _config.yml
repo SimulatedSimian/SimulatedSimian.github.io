@@ -1,6 +1,3 @@
-# markdown: redcarpet
-# markdown: redcarpet
-## markdown: kramdown
 markdown: kramdown
 kramdown:
     input: GFM
