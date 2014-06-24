@@ -12,10 +12,8 @@
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
   </head>
   <body>
-
       <header>
         <h1>{{site.projectname}}</h1>
         <p>{{site.projectdesc}}</p>
@@ -23,16 +21,7 @@
 
       <div id="banner">
         <span id="logo"></span>
-        <ul>
-          <li><a href="{{site.homepage}}" class="button"><strong>{{site.homepagetext}}</strong></a></li>
-          <li><a href="{{site.projectrepo}}" class="button"><strong>View On GitHub</strong></a></li>
-        </ul>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="{{site.projectdownloadURL}}" class="button">{{site.projectdownloadtext}}</a></li>
-          </ul>
-        </div>
+          <a href="{{page.projectrepo}}" class="button fork"><strong>View On GitHub</strong></a>
       </div><!-- end banner -->
 
     <div class="wrapper">
@@ -43,7 +32,7 @@
 {{content}}
       </section>
       <footer>
-        <p>Project maintained by <a href="https://github.com/SimulatedSimian">SimulatedSimian</a></p>
+        <p>Maintained by <a href="https://github.com/SimulatedSimian">SimulatedSimian</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
