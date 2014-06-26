@@ -1,6 +1,6 @@
 .border {
     background-color: darkgray;
-    width: auto;
+    width: 280px;
     transition: width 300ms, height 300ms;
     display: table;
     border-radius: 15px;
