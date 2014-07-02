@@ -127,6 +127,7 @@ Examples:
 * Internal test version.
 
 # Example Traces
+
 ## tracetcp vs tracert
 
 Many sites block ICMP pings, which makes the use of the traditional route tracing tools difficult, as can be seen by the following trace, which uses the standard Windows tracert utility:
