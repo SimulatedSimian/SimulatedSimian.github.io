@@ -3,7 +3,7 @@ layout: stdmain
 title: Simulated Simian
 
 projectname: Simulated Simian
-projectdesc: Look! it's a Robot Monkey!
+projectdesc: That's the second biggest robot monkey head I've ever seen!
 projectrepo: https://github.com/SimulatedSimian/
 ---
 
