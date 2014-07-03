@@ -15,10 +15,10 @@
 
     <script>
       $(document).ready(function(){
-        $.getJSON("{page.dlcounterapi}",
+        $.getJSON("{{page.dlcounterapi}}",
           function ( data ) {
             console.log(data.download_count);
-            $(".dlcount").text(data.download_count + " downloads since {page.initialdate}" );
+            $(".dlcount").text(data.download_count + " downloads since {{page.initialdate}}" );
           });
       });
     </script>  
