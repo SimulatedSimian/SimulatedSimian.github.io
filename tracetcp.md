@@ -1,5 +1,5 @@
 ---
-layout: stdproject
+layout: stdproject_dl
 title: tracetcp
 
 projectname: tracetcp
@@ -7,6 +7,8 @@ projectdesc: Traceroute utility that uses tcp syn packets to trace network route
 projectrepo: https://github.com/SimulatedSimian/tracetcp
 projectdownloadURL: https://github.com/SimulatedSimian/tracetcp/releases
 projectdownloadtext: v1.0.0
+dlcounterapi: https://api.github.com/repos/SimulatedSimian/tracetcp/releases/assets/165755
+initialdate: 3rd July 2014
 
 ---
 
