@@ -9,7 +9,7 @@ projectrepo: https://github.com/SimulatedSimian/
 
 test
 
-```
+```C++
 BOOL ctrlHandler(DWORD ctrlType) 
 { 
     switch (ctrlType) 
