@@ -9,7 +9,7 @@ projectrepo: https://github.com/SimulatedSimian/
 
 test
 
-``` javascript
+``` c++
 int main(int argc, char* argv[])
 {
 	timeBeginPeriod(1);
