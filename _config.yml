@@ -2,7 +2,7 @@
 #kramdown:
 #    input: GFM
 
-markdown: rdiscount
+markdown: redcarpet
 pygments: true
 
 # user defined vars
