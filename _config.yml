@@ -2,9 +2,8 @@
 #kramdown:
 #    input: GFM
 
-markdown: redcarpet
-
-
+markdown: rdiscount
+pygments: true
 
 # user defined vars
 
