@@ -3,6 +3,7 @@
 #    input: GFM
 
 markdown: redcarpet
+pygments: true
 
 
 # user defined vars
