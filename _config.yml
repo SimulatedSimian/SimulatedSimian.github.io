@@ -1,6 +1,9 @@
-markdown: kramdown
-kramdown:
-    input: GFM
+#markdown: kramdown
+#kramdown:
+#    input: GFM
+
+markdown: redcarpet
+
 
 # user defined vars
 
