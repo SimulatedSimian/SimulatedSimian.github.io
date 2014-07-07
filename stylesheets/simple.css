@@ -5,15 +5,18 @@ section, header {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  background-color: white; 
   margin-bottom: 5px;
-  box-shadow: 10px 10px 100px #888888
+  box-shadow: 10px 10px 100px #888888;
+  background-color: beige;
+
+
 }
 
 pre {
-  background-color: black;
+  background-color: #2C2C2C;
   overflow: auto;
   padding: 5px;
+  color: #8DF866;
 }
 
 h1 {
