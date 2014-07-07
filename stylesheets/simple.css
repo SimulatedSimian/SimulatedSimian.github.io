@@ -1,0 +1,22 @@
+section, header {
+  width: 550px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: white; 
+  margin-bottom: 5px;
+  box-shadow: 10px 10px 100px #888888
+
+}
+
+pre {
+  background-color: black;
+  overflow: auto;
+  padding: 5px;
+}
+
+h1 {
+
+}
