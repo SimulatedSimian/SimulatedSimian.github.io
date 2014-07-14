@@ -91,39 +91,3 @@ Examples:
     tracetcp 192.168.0.1 -n -t 500
 ```
 
-# Revision History
-
-### version 1.0.0 23-06-2014
-* Upgraded solution to Visual Studio 2013
-* Moved Repo to GitHub
-
-### version 0.99.4 beta 23-05-2005
-* fixed problem with in-accurate hop timing.
-
-### version 0.99.3 beta 21-05-2005
-* added winpcap support to bypass Microsofts removal of raw tcp sockets in xp sp2.
-* added -g option to override the default gateway
-* added -R option to revert to using raw sockets
-
-### version 0.99.2 beta 23-04-2004
-* Added -s option for "Easy port scan"
-* Added abitity to combine options on the command line e.g -cnr 10 30 instead of -c -n - r 10 30
-* Updated readme.txt with more info about software firewalls.
-* Fixed bug in anti-flood timeout code.
-* Added -F option to disable the anti-flood timer.
-* complete ip header construction - not leaving any fields for winsock to fill in now.
-
-### version 0.99.1 beta 25-08-2003
-* Added start hop option (-h) and changed help to -?
-* Added port range option -r to allow port scanning
-* Separated Tracing code and results display so that different display formats can be supported.
-* Added Condensed output mode (-c)
-* Added pings per hop option (-p)
-* Fixed a few Problems with the way packets were built
-* Visual Studio project files now included in source archive
-
-### version 0.99 beta 19-08-2003
-* First release on sourceforge.
-
-### version 0.90beta 21-07-2003
-* Internal test version.
