@@ -18,24 +18,9 @@ tracetcp is a command line traceroute utility for WIN32 that uses TCP SYN packet
 
 In addition to providing the functionality of the standard traceroute utility tracetcp allows a trace to be performed over any TCP port. This allows the discovery of what ports a filewall blocks and also the presence of any transparent proxies that have been put in place.
 
-# System Requirements
-
-You **MUST** install the [winpcap library](http://www.winpcap.org) for this version to work. tracetcp has been tested with version 3.* and 4.* of this library.
-
-Previous versions of tracetcp used raw sockets but Microsoft took out support for Raw TCP sockets in XP SP2, and as tracetcp uses this feature it caused it to stop working.
-
-There is an article about this here that may be of interest [here](http://seclists.org/lists/nmap-hackers/2005/Apr-Jun/0000.html).
-
-In order to allow the program to function with XP sp2 it now uses the winpcap library to send and receive packets. The downside of using this is that the program will not function over dial-up connections. 
-
-tracetcp has been tested on on Windows XP, Vista & 7. You must be logged on to the System as a user that has administrator rights to use tracetcp.
-
-# Installation
-
-You MUST install the [winpcap library](http://www.winpcap.org) first.
-Just copy tracetcp.exe into a directory that is in you system PATH.
-
 # Usage
+
+Click [here](http://simulatedsimian.github.io/tracetcp_examples.html) for a selection of example traces.
 
 From the command prompt:
 
