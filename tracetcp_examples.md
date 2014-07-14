@@ -1,6 +1,6 @@
 ---
 layout: stdproject_dl
-title: tracetcp
+title: tracetcp - examples
 
 projectname: tracetcp
 projectdesc: Traceroute utility that uses tcp syn packets to trace network routes.
@@ -14,7 +14,7 @@ initialdate: 3rd July 2014
 
 # Example Traces
 
-Here are some example traces to demonstrate tracetco working:
+Here are some example traces to demonstrate tracetcp working:
 
 ## tracetcp vs tracert
 
