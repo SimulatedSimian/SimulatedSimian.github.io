@@ -1,5 +1,5 @@
 ---
-layout: stdproject_dl
+layout: stdproject
 title: tracetcp
 
 projectname: tracetcp
