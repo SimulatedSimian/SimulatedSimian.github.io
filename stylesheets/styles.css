@@ -89,8 +89,8 @@ audio:not([controls]) {
   display: none;
 }
 
-.twitter-follow-button {
-  margin-bottom: 4px;
+.twitter-holder {
+  margin: 4px;
 }
 
 /* =============================================================================
