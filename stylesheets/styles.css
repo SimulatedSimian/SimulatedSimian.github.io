@@ -611,7 +611,7 @@ pre {
   border-radius: 3px;
   border: 1px solid #c7c7c7;
   overflow: auto;
-  overflow-y: hidden;
+  /*overflow-y: hidden; */
 }
 pre code {
   margin: 0px;
