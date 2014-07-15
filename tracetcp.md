@@ -18,6 +18,11 @@ tracetcp is a command line traceroute utility for WIN32 that uses TCP SYN packet
 
 In addition to providing the functionality of the standard traceroute utility tracetcp allows a trace to be performed over any TCP port. This allows the discovery of what ports a filewall blocks and also the presence of any transparent proxies that have been put in place.
 
+#Issues
+
+Any issues found can be raised [here](https://github.com/SimulatedSimian/tracetcp/issues).
+
+I can also be contacted on twitter:
 [![tweet @SimulatedSimian](/images/tweet.png)](https://twitter.com/intent/tweet?screen_name=SimulatedSimian)
 
 # Usage
