@@ -20,7 +20,7 @@ In addition to providing the functionality of the standard traceroute utility tr
 
 ## Downloads
 
-[Download The latest version here](http://simulatedsimian.github.io/tracetcp_download.html)
+[Download the latest version here](http://simulatedsimian.github.io/tracetcp_download.html)
 
 ## Issues
 
