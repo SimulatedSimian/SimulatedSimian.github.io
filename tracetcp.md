@@ -12,13 +12,17 @@ initialdate: 3rd July 2014
 
 ---
 
-# Welcome to tracetcp.
+# Welcome to tracetcp
 
 tracetcp is a command line traceroute utility for WIN32 that uses TCP SYN packets rather than ICMP/UDP packets that the usual implementations use, thus bypassing gateways that block traditional traceroute packets.
 
 In addition to providing the functionality of the standard traceroute utility tracetcp allows a trace to be performed over any TCP port. This allows the discovery of what ports a filewall blocks and also the presence of any transparent proxies that have been put in place.
 
-#Issues
+## Downloads
+
+[Download The latest version here](http://simulatedsimian.github.io/tracetcp_download.html)
+
+## Issues
 
 Any issues found can be raised [here](https://github.com/SimulatedSimian/tracetcp/issues).
 
