@@ -29,7 +29,7 @@ Any issues found can be raised [here](https://github.com/SimulatedSimian/tracetc
 I can also be contacted on twitter:
 [![tweet @SimulatedSimian](/images/tweet.png)](https://twitter.com/intent/tweet?screen_name=SimulatedSimian)
 
-# Usage
+## Usage
 
 Click [here](http://simulatedsimian.github.io/tracetcp_examples.html) for a selection of example traces.
 
