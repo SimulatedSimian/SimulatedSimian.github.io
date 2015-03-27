@@ -24,10 +24,9 @@ In order to allow the program to function with XP sp2 it now uses the winpcap li
 
 tracetcp has been tested on on Windows XP, Vista & 7. You must be logged on to the System as a user that has administrator rights to use tracetcp.
 
-# Advert
 
 <a href="https://www.digitalocean.com/?refcode=e145b7a8b7a6">
-	<img src="images/ssd-virtual-servers-300x250.png"
+	<img src="images/ssd-virtual-servers-banner-2-728x90.jpg"
   		 alt="Sign up with Digital Ocean and get $10 Free Credit"/>
 </a>
 
