@@ -18,4 +18,4 @@ tracetcp is a tool I wrote over 12 years ago to help me diagnose why I could not
 
 I’ve got a few ideas for updates to tracetcp, so hopefully there will be a few new updates coming soon. 
 
-[Checkout tracetcp here.](http://simulatedsimian.github.io/tracetcp.html)
+[Checkout tracetcp here.](https://simulatedsimian.github.io/tracetcp.html)
