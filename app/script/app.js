@@ -13,7 +13,7 @@ $(document).ready( function () {
     var letnum = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789012345678901234567890123456789";
 
     var generate = function (){
-        var key = $(".keyinput").val() + "_" + $(".siteinput").val() + "_" + $(".userinput").val();
+        var key = $(".keyinput").val() + "_" + $(".siteinput").val().toLowerCase() + "_" + $(".userinput").val();
 
 
         var sha = Sha256.hash(key);
