@@ -24,8 +24,11 @@
       $(document).ready(function(){
         $.getJSON("{{page.dlcounterapi}}",
           function ( data ) {
-            console.log(data.download_count);
-            $(".dlcount").text(data.download_count + " downloads since {{page.initialdate}}" );
+            var dlcnt = 0;  
+            for (var n = 0; n < data.length; n++) {
+              dlcnt += data[n].assets[0].download_count;              
+            }
+            $(".dlcount").text(dlcnt + " downloads since {{page.initialdate}}" );
           });
       });
     </script>  
