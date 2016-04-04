@@ -2,7 +2,23 @@
  * Created by lmw on 15/04/2014.
  */
 
-
+function SelectText(element) {
+    var doc = document
+        , text = doc.getElementById(element)
+        , range, selection
+    ;    
+    if (doc.body.createTextRange) {
+        range = document.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) {
+        selection = window.getSelection();        
+        range = document.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}
 
 $(document).ready( function () {
     var getWordFromDWordArray = function (dwordArray, index) {
@@ -28,4 +44,8 @@ $(document).ready( function () {
     $(".keyinput").on("change keydown paste input", generate);
     $(".siteinput").on("change keydown paste input", generate);
     $(".userinput").on("change keydown paste input", generate);
+    $(button).click(function(e) {
+        SelectText('output')
+        document.execCommand('copy')
+    });
 });
