@@ -44,8 +44,15 @@ $(document).ready( function () {
     $(".keyinput").on("change keydown paste input", generate);
     $(".siteinput").on("change keydown paste input", generate);
     $(".userinput").on("change keydown paste input", generate);
-    $(button).click(function(e) {
+    $(buttoncopy).click(function(e) {
         SelectText('output')
         document.execCommand('copy')
     });
+    $(buttonclear).click(function(e) {
+        $(".keyinput").val("");
+        $(".siteinput").val("");
+        $(".userinput").val("");
+        $(".output").text(".....");
+    });
+
 });
