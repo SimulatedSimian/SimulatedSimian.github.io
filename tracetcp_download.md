@@ -6,7 +6,7 @@ projectname: tracetcp
 projectdesc: Traceroute utility that uses tcp syn packets to trace network routes.
 projectrepo: https://github.com/SimulatedSimian/tracetcp
 projectdownloadURL: https://github.com/SimulatedSimian/tracetcp/releases
-projectdownloadtext: v1.0.2
+projectdownloadtext: v1.0.3
 dlcounterapi: https://api.github.com/repos/SimulatedSimian/tracetcp/releases
 initialdate: 3rd July 2014
 
