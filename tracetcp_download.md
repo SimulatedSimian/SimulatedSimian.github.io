@@ -5,9 +5,9 @@ title: tracetcp - download
 projectname: tracetcp
 projectdesc: Traceroute utility that uses tcp syn packets to trace network routes.
 projectrepo: https://github.com/SimulatedSimian/tracetcp
-projectdownloadURL: https://github.com/SimulatedSimian/tracetcp/releases
+projectdownloadURL: https://github.com/0xcafed00d/tracetcp/releases
 projectdownloadtext: v1.0.3
-dlcounterapi: https://api.github.com/repos/SimulatedSimian/tracetcp/releases
+dlcounterapi: https://api.github.com/repos/0xcafed00d/tracetcp/releases
 initialdate: 3rd July 2014
 
 ---
@@ -31,7 +31,7 @@ tracetcp has been tested on on Windows XP, Vista & 7. You must be logged on to t
 </a>
 
 # Download
-Download the latest version of tracetcp [here](https://github.com/SimulatedSimian/tracetcp/releases)
+Download the latest version of tracetcp [here](https://github.com/0xcafed00d/tracetcp/releases)
 
 
 # Installation
